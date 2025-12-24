@@ -2,6 +2,7 @@
 
  test('Google homepage title test', async ({ page }) => {
    await page.goto('https://www.google.com');
-   await expect(page).toHaveTitle(/Yahoo/);
+   await expect(page).toHaveTitle(/Google/);
+
 
  });
